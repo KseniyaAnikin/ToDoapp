@@ -15,7 +15,7 @@ function createTodoItemForm() {
   input.placeholder = 'Введите название нового дела';
   buttonWrapper.classList.add('input-group-append');
   button.classList.add('btn', 'btn-primary');
-  button.textContent = 'Дабавить дело';
+  button.textContent = 'Добавить дело';
 
   buttonWrapper.append(button);
   form.append(input);
